@@ -1,0 +1,20 @@
+# sample.yml
+app:
+  name: MyApp
+  version: 1.0.0
+
+server:
+  host: localhost
+  port: 8080
+
+database:
+  type: mysql
+  host: 127.0.0.1
+  port: 3306
+  username: admin
+  password: secret123
+
+features:
+  - login
+  - signup
+  - dashboard
